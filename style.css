@@ -1,12 +1,12 @@
 /*-----------------------------------------------------------------------------------
-	    squiggling repo
+	    squaaaa
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
 body{
 	margin:0;
 	padding:0;
-    background:#FFFFFF;
+    background:#424242;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -33,30 +33,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc .container{
 	padding-left:0;
 	padding-right:0;
-}
-
-
-/* Sizes */
-
-.bloc-sm{
-	padding:20px 50px;
-}
-
-
-/* Background Textures */
-
-.bloc-bg-texture::before{
-	content:"";
-	background-size: 2px 2px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left:0;
-	right:0;
-}
-.texture-geometry-shapes::before{
-	background: url("img/texture-geometry-shapes.png");
-	background-size: 280px 280px;
 }
 
 
@@ -146,10 +122,6 @@ button{
 
 
 
-.hide-indicators{
-	display:none;
-}
-
 
 /* ScrollToTop button */
 
@@ -180,30 +152,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1140px;
 }
-.carousel-style{
-	width:100%;
-}
-.btn-style{
-	width:100%;
-	padding-top:66px;
-	padding-bottom:66px;
-}
-.btn-button-style{
-	width:92.9%;
-}
-.h5-style{
-	font-family:Pacifico;
-	font-size:40px;
-}
 
 /* = Colour
 -------------------------------------------------------------- */
 
-/* Background colour styles */
-
-.bgc-fuchsia-pink{
-	background-color:#FF7CFA;
-}
 
 
 
@@ -269,13 +221,3 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
-@media (max-width: 767px){
-	.text-right{
-	}
-	.text-left{
-	}
-	.text-center{
-	}
-	
-}
-
